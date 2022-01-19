@@ -1,0 +1,12 @@
+@mixin flex-props($align: center, $justify: space-between, $direction: row) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
+
+@mixin border($width, $type, $color) {
+    border-width: $width;
+    border-style: $type;
+    border-color: $color;
+}
